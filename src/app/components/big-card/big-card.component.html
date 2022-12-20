@@ -1,7 +1,7 @@
 <div class="container__big-card">
 
     <div class="big-card__photo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQshUI-y6ECts6wfx2dmH7IRLlqQj9HdXH4ww&usqp=CAU" 
+        <img src="{{ photoCover }}"
         alt="" 
         height="200px" 
         srcset=""
@@ -10,14 +10,14 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{cardTitle}}</a></h1>
 
     </div>
 
     <div class="big-card__descriptio">
         <p>
             <a href="#">
-                Fundada no começo da década de 1930 por Martin Goodman, a Marvel Comics foi originalmente chamada de Timely Comics. Seu fundador era editor de revistas que faziam sucesso com histórias de faroeste. Visionário, Martin Goodman expandiu seu trabalho no sentido de um mercado muito promissor.
+                {{ cardDescription }}
             </a>
         </p>
 
